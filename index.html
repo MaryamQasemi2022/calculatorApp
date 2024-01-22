@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CalculatorApp</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assest/images/calculator.png"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="bg-svg">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path
+            fill="#CDFAD5"
+            d="M44.9,-37.2C56.6,-21.2,63.4,-2.6,60.1,14.3C56.7,31.2,43.2,46.4,25.2,56.8C7.2,67.1,-15.2,72.7,-32.8,65.3C-50.4,58,-63.1,37.6,-66.7,16.7C-70.3,-4.2,-64.8,-25.8,-52.2,-42C-39.6,-58.3,-19.8,-69.3,-1.6,-68C16.6,-66.8,33.2,-53.3,44.9,-37.2Z"
+            transform="translate(100 100)"
+          />
+        </svg>
+      </section>
+
+      <section class="calculator">
+        <!-- show result -->
+        <div id="input">
+          <div></div>
+        </div>
+        <div class="buttons">
+          <div class="operators">
+            <div>+</div>
+            <div>-</div>
+            <div>&times;</div>
+            <div>&divide;</div>
+          </div>
+          <!-- numbers and clear -->
+          <div class="leftPanel">
+            <div class="numbers">
+              <div>7</div>
+              <div>8</div>
+              <div>9</div>
+            </div>
+            <div class="numbers">
+              <div>4</div>
+              <div>5</div>
+              <div>6</div>
+            </div>
+            <div class="numbers">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+            <div class="numbers">
+              <div>0</div>
+              <div id="dot">.</div>
+              <div id="clear">C</div>
+            </div>
+          </div>
+          <!-- equal btn -->
+          <div id="equal" class="rightPanel">=</div>
+        </div>
+      </section>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
